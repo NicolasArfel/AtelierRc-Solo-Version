@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=atelierrc
+
+init 2022-07-13T13:26:34Z Nicolas ARFEL <nicolasarfel@gmail.com> # Création des tables principales
+role 2022-07-13T13:40:55Z Nicolas ARFEL <nicolasarfel@gmail.com> # Ajout role dans les tables client et user
+table-domain 2022-07-13T13:42:52Z Nicolas ARFEL <nicolasarfel@gmail.com> # ajout d'un domaine slug
