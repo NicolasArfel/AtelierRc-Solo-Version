@@ -29,11 +29,11 @@ const projectController = {
     }
   },
 
-  async getOne(req, res) {
+  async getOneProject(req, res) {
     const project = await projectDatamapper.findByPk(req.params.id);
 
     if (!project) {
-      res.status(404).send('error: the project you are lookinf for does not exists');
+      res.status(404).send('error: the project you are looking for does not exists');
     }
     return res.json(project);
   },
